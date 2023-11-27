@@ -1,0 +1,14 @@
+#blokje{ 
+   border-style: solid;
+   width: 50px;
+   height: 50px;
+   position: absolute;
+   background-color: black;
+}
+
+1= de id verwerken
+2= maakt de border / de style
+3= laat zien hoe dik de blok is
+4= same als 3 maar dan hoogte
+5= voor postition shit zodat die kan bewegen
+6= vulling kleur
