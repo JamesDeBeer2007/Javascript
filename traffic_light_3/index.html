@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Light 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="container">
+        <header>
+            <h1>Traffic Light 2</h1>
+        </header>
+        <p>Automatisch werkend stoplicht</p>
+        <section class="buttons">
+            <button id="rood" onclick="red()">rood</button>
+            <button id="groen" onclick="green()">groen</button>
+            <button id="geel" onclick="yellow()">geel</button>
+            <button id="uit" onclick="shutOff()">uit</button>
+            <br>
+            <button id="turnOn" onclick="turnOn()">turnOn</button>
+            <button id="blink" onclick="blink()">blink</button>
+            <button id="turnOff" onclick="turnOff()">turnOff</button>
+        </section>
+    </section>
+    <img id="traffic-light" class="trafficLight" src="./img/shutOff.png">
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
